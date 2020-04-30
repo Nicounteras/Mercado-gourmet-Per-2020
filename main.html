@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Gourmet Perú-Lo mejor de la comida peruana.</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f4ce411da1.js"></script>
+<link rel="stylesheet" href="/assets/favicon.ico">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="https://fontawesome.com/icons/chevron-double-down?style=duotone">
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.scss">
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet"> 
+     
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f4ce411da1.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> 
+<script src="index.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(".toggleMenu").click(function(){
+            $(".aside").toggleClass("active")
+        })
+        $(".toggleClose").click(function(){
+            $(".aside").removeClass("active")
+        })
+    })
+    </script>
+  
+</head>
+<body>
+    <nav class="Navbar">
+        <h2 class="heading">Mercado Gourmet <img src="peru bandera.png" width="30px" height="15px"></h2>
+        <div class="butones">
+        <a href="#direc">Cómo llegar</a>
+        <a href="#about">Acerca de</a>
+        <a href="#menú">Menú</a>
+        </div>
+    </nav>
+    <button class="toggleMenu">
+        <div></div>
+        <div></div>
+        <div></div>
+    </button>
+    <aside class="aside">
+<div class="toggleContainer">
+    <button class="toggleClose">
+        <div class="izquierda"></div>
+        <div class="derecha"></div>
+    </button>
+</div>
+        <div class="ases">
+            <a href="#direc">Cómo llegar</a>
+        <a href="#about">Acerca de</a>
+        <a href="#menú">Menú</a>
+        </div>
+    </aside>
+    <div class="completa1">
+        <div class="lomejor">
+            <h2>Lo mejor de la comida peruana <span>en un solo lugar</span></h2>
+        </div>
+        <div class="theBest"></div>
+    </div>
+    <div class="vale">
+        <a class="downButton" href="#showthePlates">
+            Descubre nuestros platos <i class="fas fa-chevron-circle-down"></i>
+        </a>
+    </div>
+    <div class="imgDiv">
+        <a href="#showthePlates" class="goDown"><div>Descubre nuestros platos <i class="fas fa-chevron-circle-down"></i></div></a>
+    </div>
+    <div class="showplates" id="showthePlates">
+        <article>
+            <img src="índice.jpeg">
+            <h5>Ceviche</h5>
+        </article>
+        <article>
+            <img src="ceviche-de-pulpo_700x465.jpg">
+            <h5>Duo 2</h5>
+        </article>
+        <article>
+            <img src="2TRMTHFQ3ZGM3J35IOUYKEZT2M.jpg">
+            <h5>Pan con Pejerrey</h5>
+        </article>
+        <article>
+            <img src="fideos.jpeg">
+            <h5>Pasta</h5>
+        </article>
+        <article>
+            <img src="45.-Lomo-Saltado-Risotto.-jpg.jpg">
+            <h5>Rissoto</h5>
+        </article>
+        <article>
+            <img src="tacutacu.jpeg">
+            <h5>Tacu tacu</h5>
+        </article>
+        <article>
+            <img src="pu1.jpg">
+            <h5>Pulpo al chimichurri</h5>
+        </article>
+        <article>
+            <img src="unnamed.jpg">
+            <h5>Causa de pulpo</h5>
+        </article>
+    </div>
+    <div class="frases">
+        <article class="Pipe">
+            <div class="text">
+                <h5>"Comida de mercado con onda gourmet"</h5>
+                <p>Pipe del Pozo</p>
+                <span>Co-fundador</span>
+            </div>
+            <img src="ceviche-de-pulpo_700x465.jpg">
+        </article>
+        <article class="Diego">
+            <div class="text">
+                <h5>"La frase del causa de Pipe"</h5>
+                <p>Causa de Pipe</p>
+                <span>Co-fundador</span>
+            </div>
+            <img src="ceviche-de-pulpo_700x465.jpg">
+        </article>
+    </div>
+    <div id="direc"></div>
+        <div class="dirección">
+            <h1>¡Visítanos!</h1>
+            <div>
+                <div class="flexea">
+                    Estamos en:
+                <span>Calle las Camelias 673, San Isidro</span>
+                </div>
+            </div>
+                <a href="https://www.google.com/maps/place/El+Mercado+Gourmet/@-12.0962936,-77.0285947,15z/data=!4m5!3m4!1s0x0:0xb1f744f5ec4236b1!8m2!3d-12.0962936!4d-77.0285947?hl=es" target="blank">
+                    <img src="googlemaps.jpeg">
+                </a>
+        </div>
+    <div class="acercaDe" id="about">
+        <h2>Acerca de</h2>
+        <div class="bigText">
+            <div class="parra1">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis molestiae cum aperiam voluptate tempora autem facere nihil animi unde eligendi totam quis, reiciendis laboriosam veniam modi illum ipsa fuga doloribus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur voluptate commodi minus? Deleniti explicabo eveniet odio distinctio cupiditate non sapiente quia nemo laboriosam eos qui ad suscipit voluptas, enim, recusandae ipsam amet vero debitis hic totam repellendus corporis sint accusantium? Dolores temporibus labore deleniti expedita dolor exercitationem, dolorum asperiores vitae.</p>
+            </div>
+            <div class="parra2"></div>
+        </div>
+    </div>
+    <div class="menú" id="menú">
+        <h2>Nuestro <span>menú</span></h2>
+        <div class="lists">
+            <ul>
+                <h3>Entradas</h3>
+                <li>Pan con pejerrey</li>
+                <li>Ronda de pejerreyes</li>
+                <li>Ceviche</li>
+                <li>Tiradito clásico</li>
+                <li>Tiradito tricolor</li>
+                <li>Pulpo con chimichurri</li>
+                <li>Ensalada Don Julio</li>
+            </ul>
+            <ul>
+                <h3>Marinos</h3>
+                <li>Chicharrón de pescado</li>
+                <li>Chicharrón mixto</li>
+                <li>Ceviche mixto</li>
+                <li>Dúo marino 1</li>
+                <li>Dúo marino 2</li>
+                <li>Dúo marino 3</li>
+            </ul>
+            <ul>
+                <h3>Causas</h3>
+                <li>Mariscos</li>
+                <li>Acevichada</li>
+                <li>Lomo saltado</li>
+                <li>Croqueta de pulpo</li>
+                <li>Pejerrey frito</li>
+            </ul>
+            <ul>
+                <h3>Chaufas</h3>
+                <li>Pollo</li>
+                <li>Mariscos</li>
+                <li>Panceta</li>
+                <li>Amazónico</li>
+                <li>Pulpo</li>
+                <li>Langostinos</li>
+                <li>Lomo</li>
+            </ul>
+            <ul>
+                <h3>Arroces/Rissotos</h3>
+                <li>Arroz con mariscos</li>
+                <li>Arroz ahuancaínado</li>
+                <li>Arroz con langostinos</li>
+                <li>Rissoto a la crema con lomo y champiñones</li>
+            </ul>
+            <ul>
+                <h3>Tacu tacus</h3>
+                <li>Mariscos a lo macho</li>
+                <li>Pejerrey en salsa huancaína</li>
+                <li>Lomo saltado</li>
+                <li>Lomo saltado con huancaína</li>
+                <li>Mar y tierra (lomo y langostinos)</li>
+            </ul>
+            <ul>
+                <h3>Pastas</h3>
+                <li>Mariscos</li>
+                <li>Langostinos salteados</li>
+                <li>Lomo saltado</li>
+            </ul>
+            <ul>
+                <h3>Adicionales</h3>
+                <li>Plátano</li>
+                <li>Huevo frito</li>
+                <li>Camote</li>
+                <li>Arroz</li>
+                <li>Yuca frita</li>
+                <li>Filete de pollo</li>
+            </ul>
+        </div>
+    </div>
+    <div class="contacto">
+        <h5>Contacto:diegobal@gmail.com</h5>
+        <h5 class="reserve">Reservas: 3294115 / 957460050</h5>
+        <div>
+            <a href="https://www.instagram.com/mercado.gourmet/" target="blank"><img src="instagram.jpeg" class="insta"></a>
+            <a href="https://www.facebook.com/MercadoGourmetPE/" target="blank"><img src="facebook.png"></a>
+        </div>
+    </div>
+</body>
+</html>
